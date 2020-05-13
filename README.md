@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This MOPDemo is designed for you to learn how to implement the new MOP feature. The MOP (MSDK/OSDK/PSDK) is a new SDK interconnectivity design, which will improve the data transmission bandwidth and reliability between each SDK.
+This MOPDemo is designed for you to learn how to implement the new MOP feature. The MOP (MSDK/OSDK/PSDK) is a new SDK interconnectivity design, which will improve the data transmission bandwidth and reliability between each SDK. This demo will tell you how to use MOP feature to implement uploading and downloading file feature with PSDK/OSDK. 
 
 Please use this demo with DJI Payload SDK 2.1 Sample, you can find it at [PSDK Download](https://developer.dji.com/payload-sdk/downloads/).
 
