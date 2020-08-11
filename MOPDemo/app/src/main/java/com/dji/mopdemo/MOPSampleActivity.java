@@ -18,7 +18,6 @@ import dji.log.DJILog;
 import dji.mop.common.Pipeline;
 import dji.mop.common.PipelineDeviceType;
 import dji.mop.common.TransmissionControlType;
-import dji.mop.core.PipelineFactory;
 import dji.sdk.base.BaseProduct;
 import dji.sdk.flightcontroller.FlightController;
 import dji.sdk.payload.Payload;
@@ -48,7 +47,6 @@ public class MOPSampleActivity extends AppCompatActivity {
         pipelineRc.setLayoutManager(new LinearLayoutManager(this));
         pipelineRc.setAdapter(adapter);
         pipelineRc.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
-//        adapter.addItem(PipelineFactory.a(PipelineDeviceType.PAYLOAD, 1, TransmissionControlType.STABLE));
 
         getFlightController().savePipelinesLog(logBox.isChecked());
 
