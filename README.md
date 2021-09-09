@@ -10,7 +10,7 @@ Please use this demo with DJI Payload SDK 2.1 Sample, you can find it at [PSDK D
 
  - Android Studio 2.0+
  - Android System 4.1+
- - DJI Android SDK 4.15
+ - DJI Android SDK 4.15.1
 
 ## Feedback
 
